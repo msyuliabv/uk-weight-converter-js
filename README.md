@@ -1,37 +1,33 @@
 # UK Weight Converter JS
 
-A simple JavaScript mini project that converts weight from kilograms into stones and pounds.
-
-## What this project does
-- Stores a weight in kilograms
-- Converts kilograms into total pounds
-- Calculates how many full stones are in that weight
-- Calculates the remaining pounds
-- Displays the result in the console
-
-## Why this project
-This project was adapted to reflect a more UK-friendly use case, as stones and pounds are commonly used in the UK for body weight.
+A simple web-based weight converter designed for UK users, converting between kilograms and stones/pounds.
 
 ## Features
 - Convert kilograms to stones and pounds
-- Simple and user-friendly interface
-- Input validation for incorrect values
+- Convert stones and pounds to kilograms
+- Input validation (including pounds < 14 rule)
+- Clear user interface with dual conversion options
 
-## Technologies used
+## Business Context
+This tool was designed with UK users in mind, where stones and pounds are commonly used instead of kilograms.
+
+## Technologies Used
+- HTML
+- CSS
 - JavaScript
 
-## What I practised
-- `const`
-- arithmetic calculations
-- `Math.floor()`
-- `Math.round()`
-- string interpolation
-- console output
+## What I Practised
+- DOM manipulation
+- Input validation
+- Conditional logic
+- Function structuring
+- User-focused design
 
-## Example output
-70 kg is equal to 11 stone and 0 pounds.
+## Example Output
+70 kg = 11 stone 0 pounds  
+11 stone 4 pounds = 72.57 kg
 
-## Future improvements
-- Reverse conversion (stones/pounds → kg)
-- Unit selection dropdown
-- Improved UI styling
+## Future Improvements
+- Add unit selection toggle
+- Improve UI styling
+- Enable real-time conversion
